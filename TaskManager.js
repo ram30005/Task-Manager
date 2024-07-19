@@ -3,7 +3,7 @@ import {useState} from 'react'
 function FunctionTest()
 {
     const[tasksList,setTasksList] = useState([{}])
-    const[task,setTask] = useState({id:0,name:'',toDo:'',lastDate:''})
+    const[task,setTask] = useState({name:'',toDo:'',lastDate:''})
     let id=0;
     function addTask()
     {
